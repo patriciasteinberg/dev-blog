@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+import Loader from "../components/Loader/Loader.component";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
       }}>
         <a>Pat's profile</a>
       </Link>
+      <Loader show />
     </div>
   )
 }
